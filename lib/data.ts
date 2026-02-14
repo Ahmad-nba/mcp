@@ -1,5 +1,5 @@
 export const siteConfig = {
-  name: "Alex Johnson",
+  name: "Shawn Jiba",
   title: "Full-Stack Developer",
   tagline: "I build modern web experiences with clean code and thoughtful design.",
   email: "alex@example.com",

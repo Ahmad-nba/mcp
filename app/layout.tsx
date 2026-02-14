@@ -14,9 +14,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex Johnson — Full-Stack Developer",
+  title: "Shawn Jiba — Full-Stack Developer",
   description:
-    "Portfolio of Alex Johnson, a full-stack developer building modern web experiences.",
+    "Portfolio of Shawn Jiba, a full-stack developer building modern web experiences.",
 };
 
 export default function RootLayout({
