@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#a855f7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ec4899;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="400" fill="url(#bg3)" rx="0"/>
+  <!-- Main card -->
+  <rect x="120" y="50" width="560" height="310" rx="12" fill="#fff" opacity="0.95"/>
+  <!-- Sidebar -->
+  <rect x="120" y="50" width="140" height="310" rx="12" fill="#faf5ff"/>
+  <rect x="260" y="50" width="1" height="310" fill="#e9d5ff"/>
+  <!-- Sidebar items -->
+  <rect x="135" y="80" width="110" height="28" rx="6" fill="#a855f7"/>
+  <text x="145" y="98" fill="#fff" font-size="10" font-family="sans-serif">Blog Posts</text>
+  <rect x="135" y="118" width="110" height="28" rx="6" fill="transparent"/>
+  <text x="145" y="136" fill="#7c3aed" font-size="10" font-family="sans-serif">Social Media</text>
+  <rect x="135" y="156" width="110" height="28" rx="6" fill="transparent"/>
+  <text x="145" y="174" fill="#7c3aed" font-size="10" font-family="sans-serif">Marketing</text>
+  <rect x="135" y="194" width="110" height="28" rx="6" fill="transparent"/>
+  <text x="145" y="212" fill="#7c3aed" font-size="10" font-family="sans-serif">Email Copy</text>
+  <!-- AI brain icon -->
+  <g transform="translate(160, 260)">
+    <circle cx="25" cy="25" r="22" fill="#f3e8ff" stroke="#a855f7" stroke-width="1.5"/>
+    <circle cx="18" cy="20" r="4" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+    <circle cx="32" cy="20" r="4" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+    <circle cx="25" cy="32" r="4" fill="none" stroke="#a855f7" stroke-width="1.5"/>
+    <line x1="21" y1="22" x2="29" y2="22" stroke="#a855f7" stroke-width="1"/>
+    <line x1="20" y1="24" x2="23" y2="30" stroke="#a855f7" stroke-width="1"/>
+    <line x1="30" y1="24" x2="27" y2="30" stroke="#a855f7" stroke-width="1"/>
+  </g>
+  <!-- Content area -->
+  <text x="285" y="85" fill="#6b21a8" font-size="13" font-weight="bold" font-family="sans-serif">AI Content Generator</text>
+  <!-- Input area -->
+  <rect x="285" y="100" width="370" height="60" rx="8" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+  <text x="300" y="120" fill="#9ca3af" font-size="10" font-family="sans-serif">Describe what you want to write about...</text>
+  <rect x="300" y="135" width="200" height="6" rx="3" fill="#e9d5ff"/>
+  <!-- Generate button -->
+  <rect x="560" y="110" width="80" height="30" rx="15" fill="#a855f7"/>
+  <text x="600" y="129" text-anchor="middle" fill="#fff" font-size="10" font-family="sans-serif">Generate</text>
+  <!-- Output lines - simulating generated text -->
+  <rect x="285" y="180" width="370" height="155" rx="8" fill="#faf5ff" stroke="#e9d5ff" stroke-width="1"/>
+  <text x="300" y="200" fill="#6b21a8" font-size="10" font-weight="600" font-family="sans-serif">Generated Content</text>
+  <!-- Typing animation lines -->
+  <rect x="300" y="215" width="330" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="228" width="310" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="241" width="340" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="254" width="280" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="267" width="320" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="280" width="250" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="293" width="300" height="5" rx="2.5" fill="#d8b4fe"/>
+  <rect x="300" y="306" width="180" height="5" rx="2.5" fill="#e9d5ff"/>
+  <!-- Sparkle icons -->
+  <g transform="translate(630, 195)">
+    <path d="M8 0 L10 6 L16 8 L10 10 L8 16 L6 10 L0 8 L6 6 Z" fill="#a855f7" opacity="0.6"/>
+  </g>
+  <g transform="translate(645, 270)">
+    <path d="M5 0 L6.5 4 L10 5 L6.5 6 L5 10 L3.5 6 L0 5 L3.5 4 Z" fill="#ec4899" opacity="0.5"/>
+  </g>
+  <!-- Floating elements -->
+  <circle cx="70" cy="90" r="22" fill="#fff" opacity="0.12"/>
+  <circle cx="740" cy="340" r="28" fill="#fff" opacity="0.1"/>
+  <circle cx="760" cy="60" r="12" fill="#fff" opacity="0.15"/>
+</svg>

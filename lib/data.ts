@@ -48,7 +48,7 @@ export const projectsData: Project[] = [
     description:
       "A full-featured e-commerce platform with real-time inventory, Stripe payments, and an admin dashboard.",
     tags: ["Next.js", "TypeScript", "Stripe", "PostgreSQL"],
-    image: "/placeholder-project.svg",
+    image: "/project-ecommerce.svg",
     liveUrl: "#",
     githubUrl: "#",
   },
@@ -57,7 +57,7 @@ export const projectsData: Project[] = [
     description:
       "A collaborative task management tool with real-time updates, drag-and-drop, and team workspaces.",
     tags: ["React", "Node.js", "Socket.io", "MongoDB"],
-    image: "/placeholder-project.svg",
+    image: "/project-taskmanager.svg",
     liveUrl: "#",
     githubUrl: "#",
   },
@@ -66,7 +66,7 @@ export const projectsData: Project[] = [
     description:
       "An AI-powered content generation tool that creates blog posts, social media content, and marketing copy.",
     tags: ["Python", "FastAPI", "OpenAI", "React"],
-    image: "/placeholder-project.svg",
+    image: "/project-ai-content.svg",
     liveUrl: "#",
     githubUrl: "#",
   },
@@ -75,7 +75,7 @@ export const projectsData: Project[] = [
     description:
       "A modern chat application with end-to-end encryption, file sharing, and video calling capabilities.",
     tags: ["Next.js", "WebRTC", "Redis", "Docker"],
-    image: "/placeholder-project.svg",
+    image: "/project-chat.svg",
     githubUrl: "#",
   },
 ];

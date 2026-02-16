@@ -15,11 +15,13 @@ export default function ProjectCard({ project }: ProjectCardProps) {
       transition={{ duration: 0.2 }}
       className="group flex flex-col overflow-hidden rounded-xl border border-zinc-200 bg-white transition-shadow hover:shadow-lg dark:border-zinc-800 dark:bg-zinc-900"
     >
-      {/* Image placeholder */}
-      <div className="flex h-48 items-center justify-center bg-gradient-to-br from-indigo-50 to-purple-50 dark:from-indigo-950/30 dark:to-purple-950/30">
-        <span className="text-4xl font-bold text-indigo-200 dark:text-indigo-800">
-          {project.title.charAt(0)}
-        </span>
+      {/* Project image */}
+      <div className="h-48 overflow-hidden">
+        <img
+          src={project.image}
+          alt={project.title}
+          className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-105"
+        />
       </div>
 
       <div className="flex flex-1 flex-col gap-3 p-5">
